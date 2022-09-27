@@ -6,11 +6,11 @@ divsWithCustomClass.forEach(div => {
 
     switch (div.getAttribute("href")) {
         case "%nxtcld%":
-            div.setAttribute("href", "cloud." + host)
+            div.setAttribute("href", "https://cloud." + host)
             break;
 
         case "%pte%":
-            div.setAttribute("href", "panel." + host)
+            div.setAttribute("href", "https://panel." + host)
             break
         default:
             break;
