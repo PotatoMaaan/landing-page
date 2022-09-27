@@ -13,7 +13,7 @@ a {
 }
 
 body {
-    background-color: #222;
+    background-color: #202124;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     display: flex;
@@ -29,8 +29,15 @@ body {
 }
 
 .content h1 {
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 700;
+}
+
+.content p {
+    text-align: center;
+    margin: 250px 0 0 0;
+    font-size: 30px;
+    font-weight: lighter;
 }
 
 .sidebar {
@@ -46,6 +53,7 @@ body {
 
 .sidebar .item {
     background: rgb(18, 21, 115);
+    background: rgb(255, 111, 0);
     cursor: pointer;
     padding: 10px;
     font-size: 25px;
@@ -61,6 +69,7 @@ body {
     flex-direction: row;
     align-items: center;
     margin: 0 50px 0 10px;
+    border-radius: 10px;
 }
 
 .sidebar a {
